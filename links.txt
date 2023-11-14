@@ -2,6 +2,7 @@ kaggle avazu difm - https://www.kaggle.com/code/braincai/0322-deepctr-difm
 vit-clip - https://huggingface.co/models?search=clip-vit
 clip-score - https://torchmetrics.readthedocs.io/en/stable/multimodal/clip_score.html
 auto-gluon - https://auto.gluon.ai/stable/tutorials/multimodal/multimodal-faq.html
+clip-finetune - https://www.kaggle.com/code/zacchaeus/clip-finetune
 
 Задача 1:
 - optuna
