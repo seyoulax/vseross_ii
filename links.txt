@@ -1,0 +1,19 @@
+kaggle avazu difm - https://www.kaggle.com/code/braincai/0322-deepctr-difm
+vit-clip - https://huggingface.co/models?search=clip-vit
+clip-score - https://torchmetrics.readthedocs.io/en/stable/multimodal/clip_score.html
+auto-gluon - https://auto.gluon.ai/stable/tutorials/multimodal/multimodal-faq.html
+
+Задача 1:
+- optuna
+- feature engineering(^2, ctr rate by device_id, dt) 
+- ансаблирование 
+Идея 1: Возьмём catboost
+Идея 2: Попробовать разные FM(deep-ctr, fastFm)
+Идея 3: Заансамблировать несколько моделей
+
+Задача 2:
+- аугментация изображений
+- optuna(если будет время)
+Идея 1: Трейн BCELoss thresholded clip_score на эмбединнгах разных модальнностей 
+Идея 2: Берём мультимодальные эмбеддинги и прокидываем через линейный слой
+Идея 3: Берём готовый Gluon
